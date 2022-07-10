@@ -6,7 +6,7 @@
 /*   By: acosta-a <acosta-a@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/05 10:01:27 by acosta-a          #+#    #+#             */
-/*   Updated: 2022/07/10 15:50:35 by acosta-a         ###   ########.fr       */
+/*   Updated: 2022/07/10 16:47:16 by acosta-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -72,7 +72,7 @@ int	main(int argc, char *argv[], char *envp[])
 		output = openfile(argv[argc - 1], OUT);
 		dup2(input, STDIN);
 		in_out_check(input, output);
-		while (i++ < (argc - 2))
+		while (i++ < (argc - 3))
 		{
 			pipe(pipefd);
 			pid = fork();
