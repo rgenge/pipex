@@ -18,7 +18,7 @@ The program is divided in 4 steps:
 
 3: After running it the pipe will take the output of the the execve child and in the other side of the pipe the parent process will take take the pipe as input.
 
-4: Then finally the program will use the execve to execute the parent process and write it in the outfile life.
+4: Then finally the program will use the execve to execute the parent process and write it in the outfile life.(The project must have no leaks at all)
 
 This is a simple explanation about the program, if you have any doubt and want a more deep explanation just message me through my linkedin.
 
